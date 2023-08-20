@@ -1,10 +1,12 @@
 # docker-Jenkins-Integration ON LOCAL MACHINE WINDOWS
-This is project simple project about Docker-Jenkins Integration
+This is simple project about GIT+Docker+Jenkins Integration
 
-To identify process using port 8080 : sudo lsof-i:8080
+COMMANDS :::::::::::
+
+To identify which process using port 8080 ::: sudo lsof-i:8080
 
 JENKINS COMMAND USED :::
-java -jar jenkins.war --hhtpPort=define port no ( else used default port 8080)
+java -jar jenkins.war --httpPort=define port no ( else used default port 8080)
 
 GIT COMMANDS USED :::
 git init 
