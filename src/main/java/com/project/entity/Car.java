@@ -1,15 +1,7 @@
 package com.project.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-import lombok.AllArgsConstructor;
-
-@Entity
 public class Car {
 	
-	@Id
 	private int noPlate;
 	private int chasisNo;
 	private String modelName;
